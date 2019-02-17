@@ -4,7 +4,8 @@ Calculate Mel-Frequency Cepstrum Coeffieients from .wav file
 ### How to use
 ```
 import mfcc
-mfcc.mfcc(wave_file_path,FFT,nceps)```
+mfcc.mfcc(wave_file_path,FFT,nceps)
+```
 
 wave_file_path: file_path
 FFT: the number of FFT (1024, 2048, 4096)
