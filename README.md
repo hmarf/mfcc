@@ -3,6 +3,7 @@ Calculate Mel-Frequency Cepstrum Coeffieients from .wav file
 
 ### How to use
 ```
+# python version = 3
 import mfcc
 mfcc.mfcc(wave_file_path,FFT,nceps)
 ```
