@@ -11,3 +11,4 @@ mfcc.mfcc(wave_file_path,FFT,nceps)
 wave_file_path: file_path  
 FFT: the number of FFT (1024, 2048, 4096)  
 nceps: the number of demention  
+ 
