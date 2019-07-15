@@ -78,3 +78,4 @@ def mfcc(filename,nfft,nceps):
 	ceps = scipy.fftpack.realtransforms.dct(mspec, type=2, norm="ortho", axis=-1)
 	return ceps[:nceps].tolist()
  
+ 
